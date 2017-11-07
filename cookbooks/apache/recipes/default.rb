@@ -11,7 +11,7 @@ end
 
 service 'apache' do
 	service_name 'httpd'
-	action :start
+        action [:start, :enable]
 end 
 
 
